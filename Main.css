@@ -1,0 +1,22 @@
+
+.Content{
+    display: inline-block;
+    text-align: center;
+    border-right: 5px solid;
+    position: abolute;
+    top: 100px;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Courier New', Courier, monospace;
+    animation: mymove 3.5s (,end);
+}
+body{
+    background-color: gray;
+
+}
+@keyframes mymove {
+    from{width: 0;}
+    to {width: 100%;}
+  }
