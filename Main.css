@@ -10,6 +10,7 @@
     margin-left:auto;
     margin-right:auto;
     font-family: 'Courier New', Courier, monospace;
+    font-size-adjust: inherit;
     animation: mymove 3.5s (,end);
 }
 body{
@@ -19,4 +20,5 @@ body{
 @keyframes mymove {
     from{width: 0;}
     to {width: 100%;}
+
   }
